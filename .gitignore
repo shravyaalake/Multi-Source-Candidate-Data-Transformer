@@ -11,7 +11,9 @@ __pycache__/
 .vscode/
 
 # Output
-output/
+output/*
+!output/default-output.json
+!output/custom-output.json
 
 # Virtual Environment
 venv/

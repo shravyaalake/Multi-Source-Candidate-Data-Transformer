@@ -1,0 +1,273 @@
+{
+    "candidate_id": "54106c78-3b44-4e2b-ac84-007705e7ede8",
+    "full_name": "Shravya Alake",
+    "emails": [
+        "shravya.alake1@gmail.com"
+    ],
+    "phones": [
+        "+919876543210"
+    ],
+    "headline": "Software Engineer Intern",
+    "skills": [
+        {
+            "name": "Python",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "Java",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "JavaScript",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "React",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "Next.js",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "Node.js",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "Express.js",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "MySQL",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "MongoDB",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "Docker",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "Grafana",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "InfluxDB",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "AWS",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "Git",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "GitHub",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "HTML",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "CSS",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "OCR",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "C",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        },
+        {
+            "name": "C++",
+            "confidence": 0.8,
+            "sources": [
+                "Resume PDF"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "company": "Ukshati Technologies Pvt. Ltd.",
+            "title": "Software Engineer Intern",
+            "start": "2026-01",
+            "end": null,
+            "summary": "ERP Accounting and Asset Management"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Sahyadri College of Engineering and Management",
+            "degree": "B.E.",
+            "field": "Computer Science and Engineering",
+            "end_year": 2026
+        }
+    ],
+    "location": {
+        "city": "Mangaluru",
+        "region": "Karnataka",
+        "country": "India"
+    },
+    "overall_confidence": 0.95,
+    "provenance": [
+        {
+            "field": "full_name",
+            "source": "Recruiter CSV",
+            "method": "Exact Match"
+        },
+        {
+            "field": "emails",
+            "source": "Recruiter CSV",
+            "method": "Exact Match"
+        },
+        {
+            "field": "phones",
+            "source": "Recruiter CSV",
+            "method": "Exact Match"
+        },
+        {
+            "field": "location",
+            "source": "Recruiter CSV",
+            "method": "Exact Match"
+        },
+        {
+            "field": "experience",
+            "source": "Recruiter CSV",
+            "method": "Exact Match"
+        },
+        {
+            "field": "headline",
+            "source": "Recruiter CSV",
+            "method": "Exact Match"
+        },
+        {
+            "field": "full_name",
+            "source": "ATS JSON",
+            "method": "Field Mapping"
+        },
+        {
+            "field": "emails",
+            "source": "ATS JSON",
+            "method": "Field Mapping"
+        },
+        {
+            "field": "phones",
+            "source": "ATS JSON",
+            "method": "Field Mapping"
+        },
+        {
+            "field": "location",
+            "source": "ATS JSON",
+            "method": "Field Mapping"
+        },
+        {
+            "field": "experience",
+            "source": "ATS JSON",
+            "method": "Field Mapping"
+        },
+        {
+            "field": "headline",
+            "source": "ATS JSON",
+            "method": "Field Mapping"
+        },
+        {
+            "field": "full_name",
+            "source": "Resume PDF",
+            "method": "Regex + Section Parsing"
+        },
+        {
+            "field": "emails",
+            "source": "Resume PDF",
+            "method": "Regex + Section Parsing"
+        },
+        {
+            "field": "phones",
+            "source": "Resume PDF",
+            "method": "Regex + Section Parsing"
+        },
+        {
+            "field": "skills",
+            "source": "Resume PDF",
+            "method": "Regex + Section Parsing"
+        },
+        {
+            "field": "education",
+            "source": "Resume PDF",
+            "method": "Regex + Section Parsing"
+        },
+        {
+            "field": "experience",
+            "source": "Resume PDF",
+            "method": "Regex + Section Parsing"
+        },
+        {
+            "field": "headline",
+            "source": "Resume PDF",
+            "method": "Regex + Section Parsing"
+        }
+    ]
+}
