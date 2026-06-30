@@ -393,7 +393,7 @@ Expected output
 # Sample Outputs
 
 ## Default Output
-
+Link - [Default Output](output/default-output.json)
 ```json
 {
   "full_name":"Shravya Alake",
@@ -405,7 +405,7 @@ Expected output
 ---
 
 ## Custom Output
-
+Link - [Custom Output](output/custom-output.json)
 ```json
 {
   "candidate_name":"Shravya Alake",
@@ -487,6 +487,6 @@ Expected output
 
 **Shravya A**
 
-GitHub: https://github.com/shravyaalake
+**GitHub:** <https://github.com/shravyaalake>
 
-LinkedIn: https://linkedin.com/in/shravya-a-39278326a
+**LinkedIn:** <https://linkedin.com/in/shravya-a-39278326a>
