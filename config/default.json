@@ -1,39 +1,43 @@
 {
   "fields": [
+
     {
-      "path": "candidate_id",
-      "type": "string"
+      "path":"candidate_id"
     },
+
     {
-      "path": "full_name",
-      "type": "string"
+      "path":"full_name"
     },
+
     {
-      "path": "emails",
-      "type": "string[]"
+      "path":"emails"
     },
+
     {
-      "path": "phones",
-      "type": "string[]"
+      "path":"phones"
     },
+
     {
-      "path": "skills",
-      "type": "object[]"
+      "path":"headline"
     },
+
     {
-      "path": "experience",
-      "type": "object[]"
+      "path":"skills"
     },
+
     {
-      "path": "education",
-      "type": "object[]"
+      "path":"experience"
     },
+
     {
-      "path": "overall_confidence",
-      "type": "number"
+      "path":"education"
     }
+
   ],
+
   "include_confidence": true,
+
   "include_provenance": true,
-  "on_missing": "null"
+
+  "on_missing":"null"
 }

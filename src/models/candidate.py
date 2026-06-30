@@ -1,5 +1,7 @@
+import uuid
 from typing import List, Optional
-from pydantic import BaseModel
+
+from pydantic import BaseModel, Field
 
 
 class Location(BaseModel):
@@ -12,13 +14,13 @@ class Links(BaseModel):
     linkedin: Optional[str] = None
     github: Optional[str] = None
     portfolio: Optional[str] = None
-    other: List[str] = []
+    other: List[str] = Field(default_factory=list)
 
 
 class Skill(BaseModel):
     name: str
-    confidence: float
-    sources: List[str]
+    confidence: float = 0.0
+    sources: List[str] = Field(default_factory=list)
 
 
 class Experience(BaseModel):
@@ -43,28 +45,31 @@ class Provenance(BaseModel):
 
 
 class CandidateProfile(BaseModel):
-    candidate_id: str
+    # Automatically generate UUID if not provided
+    candidate_id: str = Field(
+        default_factory=lambda: str(uuid.uuid4())
+    )
 
     full_name: Optional[str] = None
 
-    emails: List[str] = []
+    emails: List[str] = Field(default_factory=list)
 
-    phones: List[str] = []
+    phones: List[str] = Field(default_factory=list)
 
     location: Optional[Location] = None
 
-    links: Optional[Links] = Links()
+    links: Links = Field(default_factory=Links)
 
     headline: Optional[str] = None
 
     years_experience: Optional[float] = None
 
-    skills: List[Skill] = []
+    skills: List[Skill] = Field(default_factory=list)
 
-    experience: List[Experience] = []
+    experience: List[Experience] = Field(default_factory=list)
 
-    education: List[Education] = []
+    education: List[Education] = Field(default_factory=list)
 
-    provenance: List[Provenance] = []
+    provenance: List[Provenance] = Field(default_factory=list)
 
     overall_confidence: float = 0.0

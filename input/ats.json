@@ -1,9 +1,13 @@
 {
-  "candidateName": "Shravya Alake",
-  "mail": "shravya.alake1@gmail.com",
-  "mobile": "+91 9876543210",
-  "company": "Ukshati Technologies",
-  "designation": "Software Engineer Intern",
-  "city": "Mangaluru",
-  "country": "India"
+    "candidateName": "Shravya Alake",
+    "mail": "shravya.alake1@gmail.com",
+    "mobile": "+91 9876543210",
+    "company": "Ukshati Technologies Pvt. Ltd.",
+    "designation": "Software Engineer Intern",
+    "city": "Mangaluru",
+    "region": "Karnataka",
+    "country": "India",
+    "start_date": "2026-01",
+    "end_date": null,
+    "summary": "Working on ERP Accounting and Asset Management System."
 }

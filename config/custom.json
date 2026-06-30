@@ -1,28 +1,31 @@
 {
-  "fields": [
+  "fields":[
+
     {
-      "path": "candidate_name",
-      "from": "full_name",
-      "type": "string"
+      "path":"candidate_name",
+      "from":"full_name"
     },
+
     {
-      "path": "primary_email",
-      "from": "emails[0]",
-      "type": "string"
+      "path":"primary_email",
+      "from":"emails[0]"
     },
+
     {
-      "path": "phone",
-      "from": "phones[0]",
-      "type": "string",
-      "normalize": "E164"
+      "path":"phone",
+      "from":"phones[0]"
     },
+
     {
-      "path": "skills",
-      "from": "skills[].name",
-      "type": "string[]"
+      "path":"skills",
+      "from":"skills[].name"
     }
+
   ],
-  "include_confidence": false,
-  "include_provenance": false,
-  "on_missing": "omit"
+
+  "include_confidence":false,
+
+  "include_provenance":false,
+
+  "on_missing":"omit"
 }
