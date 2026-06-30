@@ -188,7 +188,7 @@ Clone the repository
 ```bash
 git clone https://github.com/shravyaalake/Multi-Source-Candidate-Data-Transformer.git
 
-cd candidate-transformer
+cd Multi-Source-Candidate-Data-Transformer
 ```
 
 Install dependencies
