@@ -3,22 +3,27 @@
 
     {
       "path":"candidate_name",
-      "from":"full_name"
+      "from":"full_name",
+      "type":"string",
+      "required":true
     },
 
     {
       "path":"primary_email",
-      "from":"emails[0]"
+      "from":"emails[0]",
+      "type":"string"
     },
 
     {
       "path":"phone",
-      "from":"phones[0]"
+      "from":"phones[0]",
+      "type":"string"
     },
 
     {
       "path":"skills",
-      "from":"skills[].name"
+      "from":"skills[].name",
+      "type":"string[]"
     }
 
   ],

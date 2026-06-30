@@ -3,6 +3,8 @@ from src.parsers.ats_parser import ATSParser
 from src.parsers.resume_parser import ResumeParser
 from src.merger.merger import CandidateMerger
 from src.projection.projector import ProjectionEngine
+from src.validation.validator import OutputValidator
+
 csv_parser = CSVParser()
 ats_parser = ATSParser()
 resume_parser = ResumeParser()
@@ -22,6 +24,13 @@ projector = ProjectionEngine()
 config = projector.load_config("config/default.json")
 
 output = projector.project(candidate, config)
+
+validator = OutputValidator()
+
+validator.validate_or_raise(
+    output,
+    config
+)
 
 import json
 
