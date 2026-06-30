@@ -422,6 +422,9 @@ Expected output
 
 # Screenshots
 
+### Multi-Source Candidate Data Transformer – Technical Design
+
+![Design](docs/Shravya%20A_shravya.alake1@gmail.com_Eightfold.png)
 ### Default Output
 
 ![Default Output](docs/default-output.png)
