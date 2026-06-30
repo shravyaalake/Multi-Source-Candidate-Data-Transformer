@@ -212,7 +212,7 @@ pip install -r requirements.txt
 ---
 
 # Running the Project
-
+Use the commands (Default, Custom) below for the output:
 ## Default Schema
 
 ```bash
