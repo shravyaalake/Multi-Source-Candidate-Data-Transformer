@@ -1,0 +1,39 @@
+{
+  "fields": [
+    {
+      "path": "candidate_id",
+      "type": "string"
+    },
+    {
+      "path": "full_name",
+      "type": "string"
+    },
+    {
+      "path": "emails",
+      "type": "string[]"
+    },
+    {
+      "path": "phones",
+      "type": "string[]"
+    },
+    {
+      "path": "skills",
+      "type": "object[]"
+    },
+    {
+      "path": "experience",
+      "type": "object[]"
+    },
+    {
+      "path": "education",
+      "type": "object[]"
+    },
+    {
+      "path": "overall_confidence",
+      "type": "number"
+    }
+  ],
+  "include_confidence": true,
+  "include_provenance": true,
+  "on_missing": "null"
+}

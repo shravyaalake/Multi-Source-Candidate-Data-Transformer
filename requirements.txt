@@ -1,0 +1,9 @@
+pandas
+pydantic
+typer
+pdfplumber
+python-docx
+phonenumbers
+rapidfuzz
+pycountry
+pytest
